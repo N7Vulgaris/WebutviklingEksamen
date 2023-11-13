@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>The Game Shelf</title>
+        <link rel="stylesheet" href="css/indexStyle.css">
+    </head>
+
+    <body>
+        
+        <div>
+            <header>
+                <h1>The Game Shelf - API</h1>
+            </header>
+
+            <main>
+                <section class="endpoints-section">
+                    <h2 class="endpoints-section__title">Endpoints: </h2>
+                    <ul class="endpoints-section__list">
+                        <li class="endpoints-section__list-item">https://localhost:7022/api/videogame</li>
+                        <li class="endpoints-section__list-item">https://localhost:7022/api/videogame/{id}</li>
+                        <li class="endpoints-section__list-item">https://localhost:7022/api/videogame/GetByTitle/{title}</li>
+                        <li class="endpoints-section__list-item">https://localhost:7022/api/videogame/GetByPlatform/{platform}</li>
+                        <li class="endpoints-section__list-item">https://localhost:7022/api/videogame/GetByDeveloper/{developer}</li>
+                    </ul>
+                </section>
+
+                <section class="how-to-use">
+                    <h2 class="how-to-use__title">How to use the API:</h2>
+                    <p>Using the endpoints above, replace the parameter inside of the {} to retrieve the desired video game.</p>
+                    <p class="how-to-use__text">Example: https://localhost:7022/api/videogame/GetByTitle/bloodborne will show these results: </p>
+                    <img class="how-to-use__result-image" src="images/getResult.jpg">
+                </section>
+
+                <section class="data-available">
+                    <h2 class="data-available__title">Data available:</h2>
+                    <p class="data-available__text">When using http requests againts this API, the following information / datatype is utilized:</p>
+                    <ul class="data-available__list">
+                        <li>Id: string</li>
+                        <li>Title: string</li>
+                        <li>Platform: string</li>
+                        <li>ReleaseYear: int</li>
+                        <li>Image: string</li>
+                        <li>Developer: string</li>
+                        <li>Publisher: string</li>
+                        <li>Genre: string</li>
+                        <li>ReviewScore: int</li>
+                    </ul>
+                </section>
+            </main>
+
+            <footer>
+
+            </footer>
+        </div>
+
+    </body>
+
+</html>
