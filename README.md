@@ -21,6 +21,13 @@ The general focus areas of the exam was:
 - ReactJS + TypeScript
 - Vanilla CSS3 + Bootstrap for styling
 - Axios for making Ajax calls and CRUD commands to the database
+- Media queries for making the frontend responsive. Example: The header changes from text to icons when the screen width is under 576 pixels.
 
 **Backend:**
 - .NET/C#
+
+## Usage
+
+The frontend consists of three pages:
+- **View Page:** Displays all of the objects in the database. The `VideoGameService.ts` retrieves all the objects from the database using a `GET` request. These objects are then mapped into an array, and the objects are displayed on the page. This array can then be sorted or filtered based on user input.<img width="1470" height="760" alt="viewPage" src="https://github.com/user-attachments/assets/50a1a3fc-0fc2-4f22-abbc-5566df412c52" />
+
