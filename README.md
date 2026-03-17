@@ -24,8 +24,3 @@ The general focus areas of the exam was:
 
 **Backend:**
 - .NET/C#
-
-**Styling:**
-While the focus for this exam was funcionality over style, the project features responsive design through the use of media queries.
-Example:
-When the screen width exceeds 576 pixels, the page looks like this:
