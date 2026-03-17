@@ -29,5 +29,17 @@ The general focus areas of the exam was:
 ## Usage
 
 The frontend consists of three pages:
-- **View Page:** Displays all of the objects in the database. The `VideoGameService.ts` retrieves all the objects from the database using a `GET` request. These objects are then mapped into an array, and the objects are displayed on the page. This array can then be sorted or filtered based on user input.<img width="1470" height="760" alt="viewPage" src="https://github.com/user-attachments/assets/50a1a3fc-0fc2-4f22-abbc-5566df412c52" />
+- **View Page:** Displays all of the objects in the database. The `VideoGameService.ts` retrieves all the objects from the database using a `GET` request, which is then used by `VideoGameContext.tsx` to supply the data to the different pages in the project.  
+These objects are then mapped into an array, and the objects are displayed on the page. This array can then be sorted or filtered based on user input.
+<img width="735" height="380" alt="viewPage" src="https://github.com/user-attachments/assets/50a1a3fc-0fc2-4f22-abbc-5566df412c52" />
+
+- **Quiz Page:** A simple multiple choice quiz. `quizQuestions.ts` stores all the questions and choices. At the end of the quiz, the user is shown how many correct answers they got.
+<img width="735" height="380" alt="quizPage" src="https://github.com/user-attachments/assets/a200098e-1545-49cc-ab8d-240d36446607" />
+
+- **Management Page:** This is where most of the CRUD operations are done. This page allows you to do three things:
+1. Add a new game to the database using a `POST` request.
+2. Update an existing object in the database using a `PUT` request.  
+There is a bug where if you want to update an existing object, you still have to fill out all the fields, even the ones that you don't want to change. The application does not keep track of the previous fields, and will be given a default value if not specified.
+4. Delete an object in the database using a `DELETE` request.
+<img width="735" height="380" alt="managementPage" src="https://github.com/user-attachments/assets/4ece670a-82dc-4205-b4ab-1997b1a84693" />
 
