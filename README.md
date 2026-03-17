@@ -4,9 +4,9 @@
 This project was my delivery for a Web development exam in Novermber 2022 as a part of my Bachelors degree.
 The goal of the project was threefold:
 
-- 1. Developing a Web API with a database. The database stores information about videogames and videogame characters.
-- 2. A frontend solution that retrieves data from the Web API, and displays it in a meaningful and fun manner.
-- 3. A wwwroot HTML page that that describes how to use the Web API, how to use the different endpoints and what data i available.
+-  Developing a Web API with a database. The database stores information about videogames and videogame characters.
+-  A frontend solution that retrieves data from the Web API, and displays it in a meaningful and fun manner.
+-   wwroot HTML page that that describes how to use the Web API, how to use the different endpoints and what data i available.
 
 The general focus areas of the exam was:
 
@@ -15,3 +15,17 @@ The general focus areas of the exam was:
 - .NET/C# Web API
 - Ajax to connect ReactJS to the Web API
 - Universal Design
+
+## Technologies
+**Frontend:**
+- ReactJS + TypeScript
+- Vanilla CSS3 + Bootstrap for styling
+- Axios for making Ajax calls and CRUD commands to the database
+
+**Backend:**
+- .NET/C#
+
+**Styling:**
+While the focus for this exam was funcionality over style, the project features responsive design through the use of media queries.
+Example:
+When the screen width exceeds 576 pixels, the page looks like this:
