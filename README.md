@@ -1,7 +1,7 @@
 # The Game Shelf
 
 ## Description
-This project was my delivery for a Web development exam in Novermber 2022 as a part of my Bachelors degree.
+This project is my delivery for a Web development exam in Novermber 2022 as a part of my Bachelors degree.
 The goal of the project was threefold:
 
 -  Developing a Web API with a database. The database stores information about videogames and videogame characters.
