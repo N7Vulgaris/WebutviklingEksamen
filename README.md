@@ -6,7 +6,7 @@ The goal of the project was threefold:
 
 -  Developing a Web API with a database. The database stores information about videogames and videogame characters.
 -  A frontend solution that retrieves data from the Web API, and displays it in a meaningful and fun manner.
--   wwroot HTML page that that describes how to use the Web API, how to use the different endpoints and what data i available.
+-  A wwroot HTML page that that describes how to use the Web API, how to use the different endpoints and what data i available.
 
 The general focus areas of the exam was:
 
