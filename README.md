@@ -24,7 +24,22 @@ The general focus areas of the exam was:
 - Media queries for making the frontend responsive. Example: The header changes from text to icons when the screen width is under 576 pixels.
 
 **Backend:**
-- .NET/C#
+- .NET 6 written in C#
+
+## How to run
+**Backend:**
+- Clone repo if you haven't yet
+- Open a terminal window and navigate to `WebutviklingEksamen/EksamenApi`
+- Input the `dotnet watch run` command
+- Use this URL to see how to use the API: `https://localhost:7022`
+- Alternatively use this URL: `http://localhost:5193`
+
+**Frontend:**
+- Clone repo if you haven't
+- Open the terminal and navigate to `WebutviklingEksamen/eksamen`
+- Input the `npm install` command
+- Input the `npm start` command
+- If a window doesn't open automatically, use this URL to access the frontend: `http://localhost:3000/`
 
 ## Usage
 
