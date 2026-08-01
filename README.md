@@ -1,7 +1,8 @@
 # The Game Shelf
 
 ## Description
-This project is my delivery for a Web development exam in Novermber 2022 as a part of my Bachelor's degree.
+A full-stack web application build with React and TypeScript, including a .NET Web API backend. Allows the user to view, as wel as mangage video games in a database.
+
 The goal of the project was threefold:
 
 -  Developing a Web API with a database. The database stores information about videogames and videogame characters.
