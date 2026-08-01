@@ -38,8 +38,8 @@ The general focus areas of the exam was:
 **Frontend:**
 - Clone repo if you haven't
 - Open the terminal and navigate to `WebutviklingEksamen/eksamen`
-- Input the `npm install` command
-- Input the `npm start` command
+- Input the `npm install` command to download the necessary node modules
+- Input the `npm start` command to start the application
 - If a window doesn't open automatically, use this URL to access the frontend: `http://localhost:3000/`
 
 ## Usage
