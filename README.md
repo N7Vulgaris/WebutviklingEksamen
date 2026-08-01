@@ -25,7 +25,7 @@ The general focus areas of the exam was:
 - Media queries for making the frontend responsive. Example: The header changes from text to icons when the screen width is under 576 pixels.
 
 **Backend:**
-- .NET 6 written in C#
+- .NET 6 Web API written in C#
 
 ## How to run
 **Backend:**
