@@ -55,7 +55,6 @@ These objects are then mapped into an array, and the objects are displayed on th
 - **Management Page:** This is where most of the CRUD operations are done. This page allows you to do three things:
 1. Add a new game to the database using a `POST` request.
 2. Update an existing object in the database using a `PUT` request.  
-There is a bug where if you want to update an existing object, you still have to fill out all the fields, even the ones that you don't want to change. The application does not keep track of the previous fields, and will be given a default value if not specified.
 4. Delete an object in the database using a `DELETE` request.
 <img width="735" height="380" alt="managementPage" src="https://github.com/user-attachments/assets/d4eb09d0-225d-434d-812d-9ceea5bdf751" />
 
